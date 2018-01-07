@@ -8,6 +8,6 @@ We have a set of rules describing a symbolic sequence:
 
 3) max length of the sequence is 10 pairs of letter and digit.
 
-We need a function which gives the next symbolic sequence for the given sequence.  The order fuction, its inverse function, and the sequence grammar checker function will be also useful.  For example, order("A1") = 0, order("A1-A1") = 171, inverse(172) = "A1-A2", check("A8") = true, check("D0") = false.
+We need a function which gives the next symbolic sequence for the given sequence.  The order fuction, its inverse function, and the sequence grammar checker function will be also useful.  For example, _order_("A1") = 0, _order_("A1-A1") = 171, _inverse_(172) = "A1-A2", _check_("A8") = true, _check_("D0") = false.
 
 The code is C++03 compliant.
